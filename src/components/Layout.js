@@ -1,13 +1,6 @@
-import React from 'react';
-
-import { Outlet } from "react-router-dom";
-
+import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
-  return (
-    // this will render the children of outlet
-    <Outlet />
-  );
+    return <Outlet />
 }
-
-export default Layout;
+export default Layout
